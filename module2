@@ -1,0 +1,36 @@
+void main() {
+  
+  //Student's average grade
+  
+  List <int> a = [85, 92, 78, 65, 88, 72];
+   
+  int b = 85 + 92 + 78 + 65 + 88 + 72;
+  
+  double c = b / a.length;
+  
+  var d = 'Students average grade: $c';
+  
+  print (d);
+  
+  
+  // Rounded average
+  
+  var e = 'Rounded average: $c';
+  
+  print (e);
+  
+  
+  // Passed
+  
+  if (c>=70) {
+    
+    print ('Passed');
+    
+  } else {
+    
+    print ('Failed');
+    
+  }
+  
+
+}
